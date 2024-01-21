@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Run the Python script without changing the directory
-                sh "python3 /app/g1.py"
+                sh "python3 /app/g2.py"
             }
         }
 
